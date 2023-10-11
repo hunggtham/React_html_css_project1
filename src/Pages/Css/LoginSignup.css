@@ -41,6 +41,7 @@
 .loginsign-bottom .login-desc span {
   color: #ff4141;
   font-weight: 600;
+  cursor: pointer;
 }
 .loginsign-policy {
   display: flex;
@@ -55,7 +56,9 @@
 .loginsign-bottom .login-button {
   display: block;
   margin-top: 20px;
-}
-.login-button {
   border: none;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
