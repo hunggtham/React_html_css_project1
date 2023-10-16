@@ -22,7 +22,7 @@ const ProductDisplay = (props) => {
         </div>
       </div>
       <div className="product-right">
-        <h1>{product.name}</h1>
+        <h1 className="product-name">{product.name}</h1>
         <div className="product-right-star">
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
@@ -31,7 +31,7 @@ const ProductDisplay = (props) => {
           <img src={star_dull_icon} alt="" />
           <p className="star_amount">(120)</p>
         </div>
-        <div className="product-right price">
+        <div className="product-right-price">
           <div className="product-price-old">${product.old_price}</div>
           <div className="product-price-new">${product.new_price}</div>
         </div>
@@ -40,7 +40,7 @@ const ProductDisplay = (props) => {
           totam dolor ratione dolore fuga minus provident cum soluta, culpa
           quaerat.
         </div>
-        <div className="product-size">
+        <div className="product-sizes">
           <h2>Select Size</h2>
           <div className="product-size">
             <div>S</div>
@@ -50,12 +50,12 @@ const ProductDisplay = (props) => {
             <div>XXL</div>
           </div>
         </div>
-        <button className="btn">ADD TO CART</button>
-        <p className="prodcut-category">
-          <span>Category</span> Women, T-Shirt, Croptop
+        <button className="add-cart-btn">ADD TO CART</button>
+        <p className="product-category">
+          <span>Category: </span> Women, T-Shirt, Croptop
         </p>
-        <p className="prodcut-category">
-          <span>Tag</span>Modern, Latest
+        <p className="product-category">
+          <span>Tag:</span>Modern, Latest
         </p>
       </div>
     </div>
